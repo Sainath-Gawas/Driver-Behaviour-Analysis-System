@@ -118,7 +118,7 @@ If the calculated score becomes negative, it is set to **0**.
 
 The calculated event counts and score are also displayed in the terminal.
 
-## 🌍 Impact and Applications
+## Impact and Applications
 
 The purpose of the system is not simply to generate a score, but to **make driving behaviour measurable and provide feedback that can encourage improvement over time**.
 
@@ -140,21 +140,21 @@ Aggregated and anonymized behavioural data could potentially help identify recur
 
 Overall, the system aims to shift driver monitoring from simply **detecting violations** toward **continuous awareness, feedback and behavioural improvement**.
 
-## 🧪 Wokwi Simulation
+## Wokwi Simulation
 
 The system is simulated using a **Raspberry Pi Pico and MicroPython** in Wokwi. The simulation is used to test distance detection, input handling, event counting and the scoring logic.
 
-## ⚠️ Limitations
+## Limitations
 
 The current prototype uses push buttons to represent braking and horn actions, while the distance threshold is fixed at 15 cm. It does not currently measure braking intensity, vehicle speed, road conditions or identify the type of object detected by the ultrasonic sensor.
 
-## 🚀 Future Scope
+## Future Scope
 
 The prototype can be extended using **Radar, LiDAR and IMUs**, along with vehicle data integration, mobile dashboards, cloud connectivity and machine-learning techniques for more advanced driver behaviour analysis.
 
 Future versions could also support **driving-school training systems, fleet analytics and gamified driver improvement programs**.
 
-## 👨‍💻 Project
+## Project
 
 **IoT-Based Driver Behaviour Analysis System**
 
